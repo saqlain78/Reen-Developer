@@ -1,0 +1,352 @@
+.top_header{
+    padding: 15px 0;
+    background: #f5f7fa;
+    border-bottom: 1px solid #ded7d7;
+}
+.adress{
+    width: 75%;
+    float: left;
+    color: #536d87;
+    font-size: 12px;
+}
+.icons{
+    width: 20%;
+    float: left;
+    color:#536d87;
+    font-size: 12px;
+}
+.top_header span i{
+	padding: 10px;
+}
+/* top header ends here 
+/* 0-----------------------------------------------------
+/* logo menu starts here.....................*/
+.main_header{
+	padding: 32px 0;
+}
+.logo{
+	width: 14%;
+	float: left;
+}
+
+.menu{
+	width: 60%;
+	float: left;
+	padding-top: 8px;
+	padding-left: 30px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menu nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.menu nav ul li a{
+	text-decoration: none;
+	color: #506a85;
+}
+.search_icon{
+	width: 13%;
+	float: right;
+	padding: 8px;
+}
+/* logo menu ENDS here.....................*/
+/* -----------------------------------------------------------.....................*/
+/* . MAIN SLIDER starts here.....................*/
+.main_slider {
+    position: relative;
+}
+/* ARROW RIGHT LEFT CODE STARTS HERE */
+.owl-theme .custom-nav {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    right: 10px;
+    font-size: 40px;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    height: 60px;
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 1;
+}
+.custom-nav i{
+    color: #cecece;
+    background: #5179a2;
+    height: 40px;
+    width: 40px;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+/*.custom-nav:hover i{
+    color: #00bc9c;
+}*/
+
+/* ARROW RIGHT LEFT CODE ENDS HERE */
+figure{
+    position: relative;
+    margin: 0;
+}
+figcaption{
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -156px;/*give margin  half of the height make it center*/
+    margin-left: -478px;/*give margin  half of the width make it center*/
+}
+.main_slider a{
+    text-align: center;
+}
+figcaption h1{
+    color: white;
+    font-size: 78px;
+    margin-bottom: 20px;
+}
+figcaption p{
+    color: #91a1b1;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.text-right{
+    right: 80px;
+}
+.text-right p{
+    color: white;
+}
+.text-left h1 span{
+    background: #506a85;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.text-left p{
+    color:  #506a85;
+}
+
+figcaption a{
+	padding: 20px 70px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+.fourth{
+    width: 70%;
+    top:190px;
+}
+.fourth h1 span{
+    display: inline-block;
+    background: #506a85;
+    margin-bottom: 5px
+}
+/*./main slider ends here*/
+
+/*.who-we-are starts here*/
+.text-center h3{
+    margin-bottom: 25px;
+      color: #506a85;
+    margin-top: 65px;
+}
+.text-center p{
+    color: #506a85;
+    margin-bottom: 35px;
+}
+.work-standard{
+    width: 30%;
+    word-break: break-word;
+    display: inline-flex;
+}
+.passion{
+    margin-left: 20px;
+}
+.about-us{
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+.work-standard span{
+    display: inline-block;
+    float: left;
+    width: 70px;
+    margin-top: -10px;
+    font-size: 50px;
+}
+.work-standard h5{
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #506a85;
+}
+/*  /.who-we-are ends here*/
+
+
+/*.latest work portion starts here*/
+
+.latest-work{
+    background: #f2f5f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img1{
+    width: 46%;
+    display: inline-block;
+    margin-left: 13px;
+    margin-bottom: 30px;
+}
+.text-belowImg{
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+.text-belowImg p{
+    color: #506a85;
+    font-size: 20px;
+}
+.text-belowImg span{
+    color: #506a85;
+    font-size: 14px;
+
+}
+.owl-theme .owl-dots .owl-dot span{
+    width:10px;
+    height:10px;
+    background:#506a85;
+    display:block;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius:30px
+}
+.owl-dots{
+    text-align: center;
+}
+.slider.owl-dots:hover span{
+    color: #00bc9c;
+}
+/*  /.latest work portion ends here*/
+
+/*  .contact us portion starts here*/
+
+.contact-us{
+    padding: 20px;
+}
+.contact-us p{
+    padding-bottom: 20px;
+}
+.contact-us a{
+    padding: 20px 20px;
+    color: white;
+    margin-bottom: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+/*  .contact us portion ends here*/
+
+/* .Main-footer portion starts here*/
+.main-footer{
+background: #2f4052;
+padding: 60px 0px;
+}
+.first figure img{
+    color: white;
+    margin-bottom: 25px;
+}
+.main-footer h5{
+font-size: 16px;
+color: white;
+margin-bottom: 25px;
+}
+.main-footer p{
+    color: #808e9c;
+}
+.main-footer span{
+    color: #a3b1bf;
+    display: block;
+}
+.main-footer span i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.second figure img{
+    width: 46%;
+    float: left;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.main-footer .email{
+    border-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #4e5c6c;
+    position: relative;
+}
+.main-footer a{
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+    margin-top: -41px;
+    opacity: 0.9;
+    
+}
+
+
+/* .Main-footer portion ends here*/
+
+
+/* .Below the Main-footer  another footer portion starts here*/
+.below-mainfooter{
+    background: #283645;
+    padding: 35px 0px;
+}
+.below-mainfooter span{
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+.below-mainfooter span , li{
+    color: #808e9c;
+}
+.footer-menu{
+    float: left;
+    width:50%;
+    text-align: center;
+}
+.footer-menu ul{
+    display: inline-flex;
+}
+.footer-menu ul li{
+    margin-right: 20px;
+    word-break: break-all;
+}
+.footer-menu ul li:nth-child(1){
+   list-style: none;
+}
+.below-mainfooter a{
+    width: 4%;
+    display: inline;
+    font-size: 20px;
+    padding:10px 18px;
+    color: white;
+    background:  #3c5065;
+
+}
+
+/* .Below the Main-footer  another footer portion starts here*/
+
+
+
+
+
+
+

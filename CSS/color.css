@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+.main_slider a , .contact-us a, .main-footer a{
+	background:  #17a78b;
+}
+.work-standard span i{
+	color:  #17a78b;
+}
+.custom-nav:hover i{
+    color: #00bc9c;
+}
+
